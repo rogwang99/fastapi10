@@ -28,7 +28,7 @@ app.add_middleware(
 
 path = Path(__file__).parent
 # REPLACE THIS WITH YOUR URL
-export_url = "https://www.dropbox.com/s/l0olbvtcngwk12u/nodule.pkl?dl=1"
+#export_url = "https://www.dropbox.com/s/l0olbvtcngwk12u/nodule.pkl?dl=1"
 export_file_name = 'export.pkl'
 
 
@@ -44,7 +44,7 @@ async def download_file(url, dest):
 
 
 async def setup_learner():
-    await download_file(export_url, path / export_file_name)
+    #await download_file(export_url, path / export_file_name)
     try:
         learn = load_learner(path/export_file_name)
         learn.dls.device = 'cpu'
