@@ -6,7 +6,7 @@ RUN pip install --upgrade -r requirements.txt
 
 COPY app app/
 
-RUN wget https://www.dropbox.com/s/l0olbvtcngwk12u/nodule.pkl?dl=1 -O app/export.pkl
+RUN wget https://www.dropbox.com/s/1cej4dujjf4rmc3/nodule.pkl?dl=1 -O app/export.pkl
 
 RUN ls app/
 
