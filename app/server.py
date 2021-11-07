@@ -28,7 +28,7 @@ app.add_middleware(
 
 path = Path(__file__).parent
 # REPLACE THIS WITH YOUR URL
-export_url = "https://www.dropbox.com/s/nmdnatxpylrx03u/skin_finetune.pkl?dl=1"
+export_url = "https://www.dropbox.com/s/l0olbvtcngwk12u/nodule.pkl?dl=1"
 export_file_name = 'export.pkl'
 
 
